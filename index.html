@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="The personal portfolio of Asres , an Information Systems student and aspiring web developer.">
+    <meta name="description" content="The personal portfolio of Asres Abebe, an Information Systems student and aspiring web developer.">
 
-    <title>Asres | Aspiring Web Developer</title>
+    <meta name="author" content="Asres Abebe">
+
+    <title>Asres Abebe | Aspiring Web Developer</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,8 +17,8 @@
 
     <!-- Navigation -->
     <header class="header">
-        <nav class="navbar container">
-            <a href="#home" class="logo">Asres<span></span></a>
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">Asres<span>.</span></a>
 
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -36,13 +38,14 @@
             <div class="container hero-content">
                 <p class="eyebrow">INFORMATION SYSTEMS STUDENT</p>
 
-                <h1>Hello, I'm <span>Asres </span>.</h1>
+                <h1>Hello, I'm <span>Asres</span>.</h1>
 
                 <h2>Aspiring Web Developer</h2>
 
                 <p class="hero-description">
-                    I am learning to build useful websites and applications
-                    that solve everyday real-life problems.
+                    I am an Information Systems student learning to build
+                    useful websites and applications that solve everyday
+                    real-life problems.
                 </p>
 
                 <div class="hero-buttons">
@@ -55,11 +58,10 @@
                     </a>
                 </div>
             </div>
-            
-<div class="profile-photo">
-    <span>👨‍💻</span>
-</div>
 
+            <div class="profile-photo" aria-label="Developer profile placeholder">
+                <span aria-hidden="true">👨‍💻</span>
+            </div>
         </section>
 
         <!-- About Section -->
@@ -70,22 +72,23 @@
 
                 <div class="about-card">
                     <p>
-                        I am an Information Systems undergraduate student at
-                        Bahir Dar University, Bahir Dar Institute of Technology
-                        (BiT). I am passionate about technology and learning
-                        web development.
+                        I am an Information Systems undergraduate student
+                        at Bahir Dar University, Bahir Dar Institute of
+                        Technology (BiT). I am passionate about technology
+                        and learning web development.
                     </p>
 
                     <p>
-                        My goal is to develop websites and applications that
-                        solve everyday problems and make people's lives easier.
-                        I am a beginner developer who enjoys learning,
-                        practising, and improving my skills through real projects.
+                        My goal is to develop websites and applications
+                        that solve everyday problems and make people's
+                        lives easier. I enjoy learning, practising, and
+                        improving my skills through practical projects.
                     </p>
 
                     <p>
                         This portfolio is my first web development project.
-                        I will continue improving it as I gain more experience.
+                        I will continue improving it as I gain experience
+                        and learn new technologies.
                     </p>
                 </div>
             </div>
@@ -118,7 +121,7 @@
                     <div class="skill-card">
                         <span class="skill-icon">JS</span>
                         <h3>JavaScript</h3>
-                        <p>Learning interactive websites</p>
+                        <p>Learning to create interactive websites</p>
                     </div>
 
                     <div class="skill-card">
@@ -135,13 +138,13 @@
 
                     <div class="skill-card">
                         <span class="skill-icon">SQL</span>
-                        <h3>SQL & Databases</h3>
+                        <h3>SQL &amp; Databases</h3>
                         <p>Learning data storage and management</p>
                     </div>
 
                     <div class="skill-card">
                         <span class="skill-icon">Git</span>
-                        <h3>Git & GitHub</h3>
+                        <h3>Git &amp; GitHub</h3>
                         <p>Learning version control</p>
                     </div>
 
@@ -155,105 +158,128 @@
         </section>
 
         <!-- Projects Section -->
-        
-<!-- ========================================
-     Projects Section
-======================================== -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <p class="section-label">MY WORK</p>
+                <h2 class="section-title">My Projects</h2>
 
-<section id="projects" class="section section-alt">
-    <div class="container">
-        <p class="section-label">MY WORK</p>
-        <h2 class="section-title">My Projects</h2>
-
-        <p class="section-description">
-            I am building my skills through practical projects.
-            Here are my current work and future project ideas.
-        </p>
-
-        <div class="projects-grid">
-
-            <!-- Project 1: Personal Portfolio -->
-            <article class="project-card">
-                <div class="project-number">PROJECT 01</div>
-
-                <h3>Personal Portfolio Website</h3>
-
-                <p>
-                    A personal website introducing me, my education,
-                    technical skills, and development journey.
-                    I am improving it as I learn web development.
+                <p class="section-description">
+                    I am developing my skills through practical projects.
+                    Explore my current work and future project ideas.
                 </p>
 
-                <div class="project-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Responsive Design</span>
+                <div class="projects-grid">
+
+                    <!-- Project 1: Personal Portfolio -->
+                    <article class="project-card">
+                        <div class="project-number">PROJECT 01</div>
+
+                        <h3>Personal Portfolio Website</h3>
+
+                        <p>
+                            A personal website introducing me, my education,
+                            technical skills, and development journey.
+                            Built with HTML and CSS and published online.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>GitHub Pages</span>
+                            <span>Web Design</span>
+                        </div>
+
+                        <p class="project-status">
+                            <span class="status-dot"></span>
+                            Published
+                        </p>
+
+                        <a
+                            class="text-link"
+                            href="https://asres-111.github.io/asres-portfolio/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Live Website
+                            <span aria-hidden="true">↗</span>
+                        </a>
+
+                        <a
+                            class="text-link"
+                            href="https://github.com/Asres-111/asres-portfolio"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Source Code on GitHub
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </article>
+
+                    <!-- Project 2: Future Project -->
+                    <article class="project-card future-card">
+                        <div class="project-number">PROJECT 02</div>
+
+                        <h3>Everyday Problem Solver</h3>
+
+                        <p>
+                            A planned web application focused on solving
+                            a practical everyday problem. I will choose
+                            a specific problem and develop a useful
+                            solution as my programming skills grow.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Problem Solving</span>
+                            <span>Web Development</span>
+                            <span>Future Project</span>
+                        </div>
+
+                        <p class="project-status">
+                            <span class="status-dot status-planned"></span>
+                            Planned
+                        </p>
+
+                        <span class="text-link planned-link">
+                            Coming in the future
+                        </span>
+                    </article>
+
                 </div>
+            </div>
+        </section>
 
-                <p class="project-status">
-                    <span class="status-dot"></span>
-                    In Progress
-                </p>
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <p class="section-label">MY ACADEMIC JOURNEY</p>
+                <h2 class="section-title">Education</h2>
 
-                <a
-                    class="text-link"
-                    href="https://github.com/Asres-111"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    View on GitHub <span aria-hidden="true">↗</span>
-                </a>
+                <div class="about-card education-card">
+                    <h3>Undergraduate Studies in Information Systems</h3>
 
-                <p class="project-note">
-                    Opens your GitHub profile. Replace this link with
-                    the specific repository URL when you upload this project.
-                </p>
-            </article>
+                    <p><strong>Bahir Dar University</strong></p>
 
-            <!-- Project 2: Future Idea -->
-            <article class="project-card future-card">
-                <div class="project-number">PROJECT 02</div>
+                    <p>Bahir Dar Institute of Technology (BiT)</p>
 
-                <h3>Everyday Problem Solver</h3>
-
-                <p>
-                    A planned web application to help people solve
-                    a practical everyday problem. I will choose a
-                    specific problem and build a solution as my skills grow.
-                </p>
-
-                <div class="project-tags">
-                    <span>Problem Solving</span>
-                    <span>Web Development</span>
-                    <span>Future Project</span>
+                    <p>
+                        Studying Information Systems, with an interest
+                        in software development, databases, technology,
+                        and solving real-world problems.
+                    </p>
                 </div>
-
-                <p class="project-status">
-                    <span class="status-dot status-planned"></span>
-                    Planned
-                </p>
-
-                <span class="text-link planned-link">
-                    Coming in the future
-                </span>
-            </article>
-
-        </div>
-    </div>
-</section>
-
+            </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section">
+        <section id="contact" class="section section-alt">
             <div class="container contact-content">
                 <p class="section-label">LET'S CONNECT</p>
                 <h2 class="section-title">Contact Me</h2>
 
                 <p class="section-description">
                     I am interested in learning, sharing ideas, and
-                    collaborating on useful projects. Feel free to connect
-                    with me.
+                    collaborating on useful projects. Feel free to
+                    connect with me.
                 </p>
 
                 <div class="contact-links">
@@ -266,9 +292,9 @@
 
                     <a
                         href="https://github.com/Asres-111"
+                        class="button button-secondary"
                         target="_blank"
                         rel="noopener noreferrer"
-                        class="button button-secondary"
                     >
                         Visit My GitHub
                     </a>
@@ -284,7 +310,7 @@
     <footer class="footer">
         <div class="container">
             <p>
-                &copy; <span id="year">2026</span> Asres Abebe.
+                &copy; 2026 Asres Abebe.
                 Built with HTML and CSS.
             </p>
         </div>
